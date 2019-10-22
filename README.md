@@ -1,12 +1,13 @@
 # Wildfly
 
-Add Cmale into Wildfly
+Add Camel into Wildfly
 
 Download Camel patch for Wildfly
 
 WildFly Patch - wildfly-camel-patch : https://github.com/wildflyext/wildfly-camel/releases
 
 Installing the Camel Subsystem
+==============================
 Simply unpack the provided patch into the a supported WildFly installation. For possible WildFly target versions, see the compatibility matrix below
 The WildFly compatibility matrix
 
@@ -55,6 +56,3 @@ a deployment that contains a *-camel-context.xml descriptor
 a deployment that contains a type annotated with @CamelAware
 
 a deployment that contains a type annotated with @ContextName
-
-
-
